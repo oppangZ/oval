@@ -48,7 +48,7 @@ elif [ $case = "02" ]
 then
     clear
     sleep 1
-    echo $yellow"Progress…"
+    echo $yellow"Progress..."
     cd #HOME
     pkg update && pkg upgrade
     pkg install python2 -y
@@ -58,7 +58,7 @@ elif [ $case = "03" ]
 then
     clear
     sleep 1
-    echo $yellow"Progress…"
+    echo $yellow"Progress..."
     cd #HOME
     pkg update && pkg upgrade
     pkg install php -y
@@ -68,7 +68,7 @@ elif [ $case = "04" ]
 then
     clear
     sleep 1
-    echo $yellow"Progress…"
+    echo $yellow"Progress..."
     cd #HOME
     pkg update && pkg upgrade
     pkg install wget -y
@@ -78,7 +78,7 @@ elif [ $case = "05" ]
 then
     clear
     sleep 1
-    echo $yellow"Progress…"
+    echo $yellow"Progress..."
     cd #HOME
     pkg update && pkg upgrade
     pkg install bash
